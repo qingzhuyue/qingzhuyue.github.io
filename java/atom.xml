@@ -2,22 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qingzhuyue.github.io/java</id>
     <title>读心悦 Blog</title>
-    <updated>2023-10-14T05:30:45.000Z</updated>
+    <updated>2024-01-31T02:49:10.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qingzhuyue.github.io/java"/>
     <subtitle>读心悦 Blog</subtitle>
     <icon>https://qingzhuyue.github.io/img/logo.jpg</icon>
     <entry>
-        <title type="html"><![CDATA[Java基础]]></title>
-        <id>https://qingzhuyue.github.io/java/Java基础</id>
-        <link href="https://qingzhuyue.github.io/java/Java基础"/>
-        <updated>2023-10-14T05:30:45.000Z</updated>
-        <category label="Java" term="Java"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[index]]></title>
         <id>https://qingzhuyue.github.io/java/index</id>
         <link href="https://qingzhuyue.github.io/java/index"/>
-        <updated>2023-02-08T08:38:11.000Z</updated>
+        <updated>2024-01-31T02:49:10.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Java基础]]></title>
+        <id>https://qingzhuyue.github.io/java/Java基础</id>
+        <link href="https://qingzhuyue.github.io/java/Java基础"/>
+        <updated>2024-01-31T02:49:10.000Z</updated>
+        <category label="Java" term="Java"/>
     </entry>
 </feed>

@@ -4,7 +4,7 @@
         <title>读心悦 Blog</title>
         <link>https://qingzhuyue.github.io/lifestyle</link>
         <description>读心悦 Blog</description>
-        <lastBuildDate>Sat, 14 Oct 2023 05:30:45 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 31 Jan 2024 02:49:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[index]]></title>
             <link>https://qingzhuyue.github.io/lifestyle/index</link>
             <guid>https://qingzhuyue.github.io/lifestyle/index</guid>
-            <pubDate>Sat, 14 Oct 2023 05:30:45 GMT</pubDate>
+            <pubDate>Wed, 31 Jan 2024 02:49:10 GMT</pubDate>
             <description><![CDATA[<!--]]></description>
             <content:encoded><![CDATA[<p>活着</p>]]></content:encoded>
         </item>
