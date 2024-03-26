@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>读心悦 Blog</title>
         <link>https://qingzhuyue.github.io/java</link>
@@ -9,17 +9,13 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-Hans</language>
         <item>
-            <title><![CDATA[index]]></title>
-            <link>https://qingzhuyue.github.io/java/index</link>
-            <guid>https://qingzhuyue.github.io/java/index</guid>
+            <title><![CDATA[TCP为什么需要3次握手和4次挥手]]></title>
+            <link>https://qingzhuyue.github.io/java/TCP为什么需要3次握手和4次挥手</link>
+            <guid>https://qingzhuyue.github.io/java/TCP为什么需要3次握手和4次挥手</guid>
             <pubDate>Wed, 31 Jan 2024 02:49:10 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Java基础]]></title>
-            <link>https://qingzhuyue.github.io/java/Java基础</link>
-            <guid>https://qingzhuyue.github.io/java/Java基础</guid>
-            <pubDate>Wed, 31 Jan 2024 02:49:10 GMT</pubDate>
-            <category>Java</category>
+            <description><![CDATA[三次握手]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="三次握手">三次握手<a href="#三次握手" class="hash-link" aria-label="三次握手的直接链接" title="三次握手的直接链接">​</a></h2><p>三次握手，是TCP在建立一个连接的时候，需要客户端和服务器发送三个包，主要是为了确认双方的接收能力和发送能力是否正常、指定自己的初始化序列号为后面的可靠性传输做准备。</p><p>第一次握手：是客户端给服务器发送一个报文，并且指明客户端的初始化序列号。</p><p>第二次握手：是服务器收到客户端发送的报文后，返回自己的报文。</p><p>第三次握手：是客户端接收到服务器返回的报文后，确定时候建立连接。</p><p>然后就可以正常通信。</p><p>TCP终止一个连接，需要经过四次挥手。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="四次挥手">四次挥手<a href="#四次挥手" class="hash-link" aria-label="四次挥手的直接链接" title="四次挥手的直接链接">​</a></h2><p>第一次挥手：是客户端给服务器发送一个报文，然后等待服务器的确认；</p><p>第二次挥手：服务器接收到报文后，会返回一个确认的报文，这时候服务器处于等待关闭的状态</p><p>第三次挥手：如果服务器确认</p>]]></content:encoded>
+            <category>http</category>
         </item>
     </channel>
 </rss>

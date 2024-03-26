@@ -8,16 +8,12 @@
     <subtitle>读心悦 Blog</subtitle>
     <icon>https://qingzhuyue.github.io/img/logo.jpg</icon>
     <entry>
-        <title type="html"><![CDATA[index]]></title>
-        <id>https://qingzhuyue.github.io/java/index</id>
-        <link href="https://qingzhuyue.github.io/java/index"/>
+        <title type="html"><![CDATA[TCP为什么需要3次握手和4次挥手]]></title>
+        <id>https://qingzhuyue.github.io/java/TCP为什么需要3次握手和4次挥手</id>
+        <link href="https://qingzhuyue.github.io/java/TCP为什么需要3次握手和4次挥手"/>
         <updated>2024-01-31T02:49:10.000Z</updated>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Java基础]]></title>
-        <id>https://qingzhuyue.github.io/java/Java基础</id>
-        <link href="https://qingzhuyue.github.io/java/Java基础"/>
-        <updated>2024-01-31T02:49:10.000Z</updated>
-        <category label="Java" term="Java"/>
+        <summary type="html"><![CDATA[三次握手]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="三次握手">三次握手<a href="#三次握手" class="hash-link" aria-label="三次握手的直接链接" title="三次握手的直接链接">​</a></h2><p>三次握手，是TCP在建立一个连接的时候，需要客户端和服务器发送三个包，主要是为了确认双方的接收能力和发送能力是否正常、指定自己的初始化序列号为后面的可靠性传输做准备。</p><p>第一次握手：是客户端给服务器发送一个报文，并且指明客户端的初始化序列号。</p><p>第二次握手：是服务器收到客户端发送的报文后，返回自己的报文。</p><p>第三次握手：是客户端接收到服务器返回的报文后，确定时候建立连接。</p><p>然后就可以正常通信。</p><p>TCP终止一个连接，需要经过四次挥手。</p><h2 class="anchor anchorWithStickyNavbar_LWe7" id="四次挥手">四次挥手<a href="#四次挥手" class="hash-link" aria-label="四次挥手的直接链接" title="四次挥手的直接链接">​</a></h2><p>第一次挥手：是客户端给服务器发送一个报文，然后等待服务器的确认；</p><p>第二次挥手：服务器接收到报文后，会返回一个确认的报文，这时候服务器处于等待关闭的状态</p><p>第三次挥手：如果服务器确认</p>]]></content>
+        <category label="http" term="http"/>
     </entry>
 </feed>
